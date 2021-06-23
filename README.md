@@ -24,5 +24,5 @@ Need to get that and compile it from
 
 curl -R -O http://www.lua.org/ftp/lua-5.4.3.tar.gz
 
--final successful command to compile 
+-final successful command to compile: 
 make TARGET=linux-glibc USE_LUA=1 USE_OPENSSL=1 USE_PROMEX=1 USE_PCRE=1 PCREDIR= USE_ZLIB=1 USE_SYSTEMD=1 LUA_LIB=/opt/lua-5.4.3/src LUA_INC=/opt/lua-5.4.3/src 
